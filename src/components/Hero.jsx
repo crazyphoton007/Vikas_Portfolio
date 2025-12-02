@@ -1,3 +1,4 @@
+import avatar from '/avatar.jpg'; // from public/
 import React from "react";
 import { hero, links } from "../data";
 
@@ -17,7 +18,7 @@ export default function Hero() {
             hover:scale-105 hover:shadow-[0_0_25px_rgba(255,200,60,0.5)]
           ">
             <img
-              src="avatar.jpg"
+              src={avatar}
               alt="Vikas Shukla"
               className="w-full h-full object-cover"
             />

@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Vikas_Portfolio/',   // repo name
+  base: '/Vikas_Portfolio/',   // your repo name
   build: {
-    outDir: 'docs',            // 👈 build into docs/ instead of dist/
+    outDir: 'docs',            // build directly into docs/
   },
 })

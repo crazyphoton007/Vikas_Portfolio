@@ -1,4 +1,12 @@
+# dependencies
+node_modules/
 
-# local
-PPT/
-node_modules/.cache/
+# build tools
+.vite/
+.cache/
+
+# OS
+.DS_Store
+
+# dependencies
+node_modules/

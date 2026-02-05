@@ -1,3 +1,5 @@
+// src/data.js
+
 export const links = {
   email: "vikasofficial927@gmail.com",
   linkedIn: "https://www.linkedin.com/in/vikas-shukla-48063b78/",
@@ -11,12 +13,12 @@ export const hero = {
   title: "Data Scientist",
   tagline:
     "I design and productionize models that support real business decisions, covering trial analytics, commercial insights, fraud detection, customer behavior, and cloud-scale data.",
-  location: "USA",
+  location: "USA"
 };
 
 export const about = {
-  summary: "Innovative and collaborative Data Scientist with 7+ years delivering large scale models. Detail oriented with a track record of structured execution. Experienced in cloud scale data solutions focused on market behavior analysis, insight generation, and decision support."
-
+  summary:
+    "Innovative and collaborative Data Scientist with 7+ years delivering large scale models. Detail oriented with a track record of structured execution. Experienced in cloud scale data solutions focused on market behavior analysis, insight generation, and decision support."
 };
 
 export const experience = [
@@ -93,6 +95,14 @@ export const projects = [
     desc:
       "Built Gradient Boosting models to estimate hourly bike rentals for the last quarter of 2012. Performed detailed feature analysis to improve forecast stability and accuracy.",
     link: "https://github.com/crazyphoton007/Forecast_Bike-Rentals"
+  },
+  {
+    title: "IntelliQuery Engine (LLM + RAG)",
+    stack: ["Python", "FastAPI", "Embeddings", "FAISS", "RAG"],
+    desc:
+      "Built a production-ready RAG system for legal and finance Q&A from large document collections. Implemented ingestion, chunking, embeddings, and FAISS vector search to achieve sub-second retrieval (<800 ms) across 10K+ chunks, reducing manual review by ~60% with source-cited responses.",
+    link: "https://github.com/crazyphoton007/Intelliquery-Engine"
+    
   }
 ];
 
@@ -120,7 +130,9 @@ export const skills = [
   "Tableau",
   "QuickSight",
   "CI/CD",
-  "Git"
+  "Git",
+  "LLM",
+  "RAG"
 ];
 
 export const education = [

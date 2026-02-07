@@ -12,7 +12,7 @@ export const data = {
 
   // Hero headline (1–2 lines)
   headline:
-    "Data Scientist with 7+ years of experience building ML and analytics solutions that support real business decisions — from fraud detection to trial analytics to LLM + RAG systems.",
+    "Data Scientist with 7+ years of experience building ML and analytics solutions that support real business decisions from fraud detection to trial analytics to LLM + RAG systems.",
 
   // ✅ Your exact roles (bold + rotating in Hero)
   roles: ["Data Scientist", "Analytics Builder", "Billiards Player"],

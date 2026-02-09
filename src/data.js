@@ -8,17 +8,17 @@ export const data = {
   email: "vikasofficial927@gmail.com",
   github: "crazyphoton007",
   linkedin: "vikas-shukla-48063b78",
-  resumeUrl: "Vikas_Shukla_Resume.pdf", // public/
+  resumeUrl: "Vikas_Resume.pdf", // public/
 
   // Hero headline (1–2 lines)
   headline:
-    "Data Scientist with 7+ years of experience building ML and analytics solutions that support real business decisions from fraud detection to trial analytics to LLM + RAG systems.",
+    "Data Professional with 7+ years of experience building ML and analytics solutions that support real business decisions from fraud detection to trial analytics to LLM + RAG systems.",
 
   // ✅ Your exact roles (bold + rotating in Hero)
-  roles: ["Data Scientist", "Analytics Builder", "Billiards Player"],
+  roles: ["Data Professional", "Analytics Builder", "Billiards Player"],
 
   about:
-    "Innovative and collaborative Data Scientist with 7+ years delivering large-scale models. Detail-oriented with a track record of structured execution. Experienced in cloud-scale data solutions focused on market behavior analysis, insight generation, and decision support.",
+    "Innovative and collaborative Data Professional with 7+ years of experience delivering large-scale analytical and modeling solutions. Detail-oriented with a strong track record of structured execution, insight generation, and data-driven decision support using cloud-scale data platforms.",
 
   skills: {
     languages: ["Python", "R", "SQL"],
@@ -50,15 +50,14 @@ export const data = {
   experience: [
     {
       company: "Capital One",
-      title: "Data Scientist",
+      title: "Sr. Data Analyst",
       dates: "Oct 2024 – Present",
       location: "Richmond, VA",
       bullets: [
-        "Identified instability in high-volume card transaction signals and rebuilt monitoring using XGBoost and segmented time-series diagnostics, improving fraud prediction accuracy and reducing false positives during peak shopping periods.",
-        "Built consolidated behavioral datasets from tens of millions of transactions, cutting manual analysis cycles and speeding up decisions for product and risk teams.",
-        "Designed a scoring framework combining ensemble models with business rules to surface early indicators of account compromise and reduce investigation time for analysts.",
-        "Created SQL diagnostics to catch data-quality issues before they affected KPIs, reducing weekly metric variance by ~20%.",
-        "Performed Risk Management and Audit testing for data pipeline controls and delivered clear, traceable audit evidence.",
+        "Engineered unified data reporting solution consolidating multiple sources into streamlined dashboard using Snowflake, Databricks reduced redundancy and manual tasks by 75%, empowering data risk officers in governance.",
+        "Optimized ETL pipeline to slash process time by 97% and transform complex data infrastructure into production-ready datasets.",
+        "Co-developed and rigorously validated robust data model to ensure data integrity and accelerate implementation timelines by 50% through cross-team collaboration and external resource integration.",
+        "Directed root cause analyses for Risk Management to isolate KPI fluctuations and enforce compliance with internal standards and US government Regulations.",
       ],
     },
     {

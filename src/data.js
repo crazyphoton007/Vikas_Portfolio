@@ -12,7 +12,7 @@ export const data = {
 
   // Hero headline (1–2 lines)
   headline:
-    "Data Professional with 7+ years of experience building ML and analytics solutions that support real business decisions from fraud detection to trial analytics to LLM + RAG systems.",
+    "Data Analyst specializing in Advanced Analytics, driving fraud detection, risk strategy development, model monitoring, and robust model data quality (MDQ) controls to support compliant, data-driven decisions.",
 
   // ✅ Your exact roles (bold + rotating in Hero)
   roles: ["Data Professional", "Analytics Builder", "Billiards Player"],
@@ -62,7 +62,7 @@ export const data = {
     },
     {
       company: "Bayer",
-      title: "Data Scientist",
+      title: "Sr. Data Analyst",
       dates: "Jul 2023 – Oct 2024",
       location: "St. Louis, MO",
       bullets: [
@@ -87,7 +87,7 @@ export const data = {
     },
     {
       company: "SGS Tekniks",
-      title: "Data Scientist",
+      title: "Data Analyst",
       dates: "Nov 2014 – May 2018",
       location: "Gurugram, IND",
       bullets: [

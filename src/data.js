@@ -77,7 +77,7 @@ export const data = {
       company: "Amazon",
       title: "Software Engineer (ML)",
       dates: "Jun 2022 – Apr 2023",
-      location: "Bellevue, WA",
+      location: "Richmond, VA",
       bullets: [
         "Built a secure notebook environment for data science teams to explore, train, and deploy models, reducing development time by ~40%.",
         "Created a notification quality framework across push, SMS, and email channels, improving engagement and retention for Alexa.",

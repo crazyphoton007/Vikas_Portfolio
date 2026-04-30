@@ -100,7 +100,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-100">
+    <div className="min-h-screen text-zinc-100">
       <div className="container-xxl py-10">
         <Nav
           resumeUrl={resumeUrl}
@@ -109,7 +109,7 @@ export default function App() {
           onOpenEmail={() => setEmailModalOpen(true)}
         />
 
-        <main className="space-y-12">
+        <main className="space-y-12 md:space-y-14">
           <Hero
             photoUrl={photoUrl}
             resumeUrl={resumeUrl}
@@ -131,8 +131,8 @@ export default function App() {
 
       {/* Email modal (clean + reliable) */}
       {emailModalOpen && (
-        <div className="fixed inset-0 z-50 grid place-items-center bg-black/70 p-4">
-          <div className="w-full max-w-md rounded-2xl border border-zinc-800 bg-zinc-950 p-5 shadow-2xl">
+        <div className="fixed inset-0 z-50 grid place-items-center bg-black/75 p-4 backdrop-blur-md">
+          <div className="card w-full max-w-md p-5 shadow-2xl">
             <div className="flex items-start justify-between gap-3">
               <div>
                 <div className="text-sm text-zinc-400">Email</div>
@@ -143,7 +143,7 @@ export default function App() {
               <button
                 type="button"
                 onClick={() => setEmailModalOpen(false)}
-                className="grid h-9 w-9 place-items-center rounded-xl border border-zinc-800 bg-zinc-950/60 text-zinc-300 hover:border-amber-400/50"
+                className="grid h-9 w-9 place-items-center rounded-xl border border-white/10 bg-white/5 text-zinc-300 hover:border-cyan-300/50"
                 title="Close"
               >
                 ✕
@@ -154,7 +154,7 @@ export default function App() {
               <button
                 type="button"
                 onClick={openMailto}
-                className="contact-btn flex items-center justify-between rounded-2xl border border-zinc-800 bg-zinc-950/60 px-4 py-3 text-left"
+                className="contact-btn flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-left"
               >
                 <span>
                   <span className="block text-sm font-semibold">Open Mail App</span>
@@ -166,7 +166,7 @@ export default function App() {
               <button
                 type="button"
                 onClick={openGmailCompose}
-                className="contact-btn flex items-center justify-between rounded-2xl border border-zinc-800 bg-zinc-950/60 px-4 py-3 text-left"
+                className="contact-btn flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-left"
               >
                 <span>
                   <span className="block text-sm font-semibold">Open Gmail</span>
@@ -178,7 +178,7 @@ export default function App() {
               <button
                 type="button"
                 onClick={copyEmail}
-                className="contact-btn flex items-center justify-between rounded-2xl border border-zinc-800 bg-zinc-950/60 px-4 py-3 text-left"
+                className="contact-btn flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-left"
               >
                 <span>
                   <span className="block text-sm font-semibold">Copy Email</span>
@@ -198,7 +198,7 @@ export default function App() {
       {/* Toast */}
       {toast && (
         <div className="fixed bottom-5 left-1/2 z-50 w-[min(92vw,420px)] -translate-x-1/2">
-          <div className="rounded-2xl border border-zinc-800 bg-zinc-950/90 p-4 shadow-xl">
+          <div className="rounded-2xl border border-white/10 bg-zinc-950/90 p-4 shadow-xl shadow-cyan-950/30 backdrop-blur-xl">
             <div className="text-sm font-semibold">{toast.title}</div>
             <div className="mt-0.5 text-xs text-zinc-400">{toast.desc}</div>
           </div>

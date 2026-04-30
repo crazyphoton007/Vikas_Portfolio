@@ -4,7 +4,7 @@
 export const data = {
   name: "Vikas Shukla",
   photo: "avatar.jpg", // public/
-  location: "McLean, VA",
+  location: "Richmond, VA",
   email: "vikasofficial927@gmail.com",
   github: "crazyphoton007",
   linkedin: "vikas-shukla-48063b78",
@@ -77,7 +77,7 @@ export const data = {
       company: "Amazon",
       title: "Software Engineer (ML)",
       dates: "Jun 2022 – Apr 2023",
-      location: "Richmond, VA",
+      location: "Bellevue, WA",
       bullets: [
         "Built a secure notebook environment for data science teams to explore, train, and deploy models, reducing development time by ~40%.",
         "Created a notification quality framework across push, SMS, and email channels, improving engagement and retention for Alexa.",

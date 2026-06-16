@@ -16,7 +16,7 @@ export default function Hero({
             <img
               src={photoUrl}
               alt={data.name}
-              className="h-40 w-40 rounded-2xl border border-zinc-800 object-cover"
+              className="h-44 w-44 rounded-2xl border border-zinc-800 object-cover md:h-48 md:w-48"
             />
           </div>
         </div>

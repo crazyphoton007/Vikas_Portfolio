@@ -3,8 +3,8 @@
 
 export const data = {
   name: "Vikas Shukla",
-  photo: "avatar.jpg", // public/
-  location: "Bellevue, WA",
+  photo: "profile-image.png", // public/
+  location: "Richmond, WA",
   email: "vikasofficial927@gmail.com",
   github: "crazyphoton007",
   linkedin: "vikas-shukla-48063b78",
@@ -50,11 +50,11 @@ export const data = {
   experience: [
     {
       company: "Capital One",
-      title: "Data Scietist",
+      title: "Sr. Data Analyst",
       dates: "Oct 2024 – Present",
-      location: "Bellevue, WA",
+      location: "Richmond, WA",
       bullets: [
-        "Rebuilt transaction risk model using XGBoost and validated performance with decile analysis and Gini coefficient, improving fraud prediction accuracy by 17% and reducing false positives by 22%.",
+        "Analyzed 40M+ transaction records to identify fraud patterns, emerging risk trends, and key behavioral indicators, enabling fraud strategy improvements that reduced investigation volume by 22%.",
         "Built consolidated dataset from 40M+ transactions across multiple systems, enabling self-serve analytics and reducing manual analysis cycles by 60%.",
         "Designed hybrid ML and rule-based scoring framework to surface early indicators of account compromise, reducing investigation workload by 45 hours per month.",
         "Defined KPIs and implemented automated SQL monitoring to detect data-quality issues before business impact, reducing weekly metric variance by 20%.",

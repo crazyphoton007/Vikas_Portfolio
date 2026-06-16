@@ -115,13 +115,34 @@ html, body {
 }
 
 @layer components {
-  .avatar-pop { position: relative; display: inline-block; overflow: visible; z-index: 1; }
-  .avatar-pop img { transition: transform 260ms ease, box-shadow 260ms ease, filter 260ms ease; will-change: transform; }
+  .avatar-pop {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+    z-index: 1;
+    animation: avatar-float 4.5s ease-in-out infinite;
+  }
+
+  .avatar-pop img {
+    transition: transform 260ms ease, box-shadow 260ms ease, filter 260ms ease;
+    will-change: transform;
+  }
+
   .avatar-pop:hover { z-index: 50; }
+
+  .avatar-pop:hover {
+    animation-play-state: paused;
+  }
+
   .avatar-pop:hover img {
-    transform: translateY(-6px) scale(1.10);
-    box-shadow: 0 0 38px rgba(245, 158, 11, 0.25);
-    filter: saturate(1.05);
+    transform: translateY(-10px) scale(1.16);
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.38), 0 0 42px rgba(245, 158, 11, 0.28);
+    filter: saturate(1.08);
+  }
+
+  @keyframes avatar-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
   }
 }
 

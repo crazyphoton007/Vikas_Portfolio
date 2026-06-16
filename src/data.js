@@ -8,17 +8,17 @@ export const data = {
   email: "vikasofficial927@gmail.com",
   github: "crazyphoton007",
   linkedin: "vikas-shukla-48063b78",
-  resumeUrl: "Vikas_Resume_DS.pdf", // public/
+  resumeUrl: "Vikas_Resume.pdf", // public/
 
   // Hero headline (1–2 lines)
   headline:
-    "Data Scientist with 7+ years of experience building ML and analytics solutions that support real business decisions from fraud detection to trial analytics to LLM + RAG systems.",
+    "Data Analyst specializing in Advanced Analytics, driving fraud detection, risk strategy development, model monitoring, and robust model data quality (MDQ) controls to support compliant, data-driven decisions.",
 
   // ✅ Your exact roles (bold + rotating in Hero)
-  roles: ["Data Scientist", "Analytics Builder", "Billiards Player"],
+  roles: ["Data Professional", "Analytics Builder", "Billiards Player"],
 
   about:
-    "Innovative and collaborative Data Scientist with 7+ years of experience delivering large-scale analytical and modeling solutions. Detail-oriented with a strong track record of structured execution, insight generation, and data-driven decision support using cloud-scale data platforms.",
+    "Innovative and collaborative Data Professional with 7+ years of experience delivering large-scale analytical and modeling solutions. Detail-oriented with a strong track record of structured execution, insight generation, and data-driven decision support using cloud-scale data platforms.",
 
   skills: {
     languages: ["Python", "R", "SQL"],
@@ -55,15 +55,14 @@ export const data = {
       location: "Richmond, WA",
       bullets: [
         "Analyzed 40M+ transaction records to identify fraud patterns, emerging risk trends, and key behavioral indicators, enabling fraud strategy improvements that reduced investigation volume by 22%.",
-        "Built consolidated dataset from 40M+ transactions across multiple systems, enabling self-serve analytics and reducing manual analysis cycles by 60%.",
-        "Designed hybrid ML and rule-based scoring framework to surface early indicators of account compromise, reducing investigation workload by 45 hours per month.",
-        "Defined KPIs and implemented automated SQL monitoring to detect data-quality issues before business impact, reducing weekly metric variance by 20%.",
-        "Partnered with engineering to productionize fraud models and automate thresholds, increasing model adoption to 98%."
-      ]
+        "Optimized ETL pipeline to slash process time by 97% and transform complex data infrastructure into production-ready datasets.",
+        "Co-developed and rigorously validated robust data model to ensure data integrity and accelerate implementation timelines by 50% through cross-team collaboration and external resource integration.",
+        "Directed root cause analyses for Risk Management to isolate KPI fluctuations and enforce compliance with internal standards and US government Regulations.",
+      ],
     },
     {
       company: "Bayer",
-      title: "Data Scientist",
+      title: "Sr. Data Analyst",
       dates: "Jul 2023 – Oct 2024",
       location: "St. Louis, MO",
       bullets: [
@@ -88,7 +87,7 @@ export const data = {
     },
     {
       company: "SGS Tekniks",
-      title: "Data Scientist",
+      title: "Data Analyst",
       dates: "Nov 2014 – May 2018",
       location: "Gurugram, IND",
       bullets: [

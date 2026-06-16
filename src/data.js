@@ -62,7 +62,7 @@ export const data = {
     },
     {
       company: "Bayer",
-      title: "Sr. Data Analyst",
+      title: "Data Scientist",
       dates: "Jul 2023 – Oct 2024",
       location: "St. Louis, MO",
       bullets: [
@@ -87,7 +87,7 @@ export const data = {
     },
     {
       company: "SGS Tekniks",
-      title: "Data Analyst",
+      title: "Data Scientist",
       dates: "Nov 2014 – May 2018",
       location: "Gurugram, IND",
       bullets: [

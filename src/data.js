@@ -3,8 +3,8 @@
 
 export const data = {
   name: "Vikas Shukla",
-  photo: "avatar.jpg", // public/
-  location: "Richmond, VA",
+  photo: "profile-image.png", // public/
+  location: "Richmond, WA",
   email: "vikasofficial927@gmail.com",
   github: "crazyphoton007",
   linkedin: "vikas-shukla-48063b78",
@@ -52,9 +52,9 @@ export const data = {
       company: "Capital One",
       title: "Sr. Data Analyst",
       dates: "Oct 2024 – Present",
-      location: "Richmond, VA",
+      location: "Richmond, WA",
       bullets: [
-        "Engineered unified data reporting solution consolidating multiple sources into streamlined dashboard using Snowflake, Databricks reduced redundancy and manual tasks by 75%, empowering data risk officers in governance.",
+        "Analyzed 40M+ transaction records to identify fraud patterns, emerging risk trends, and key behavioral indicators, enabling fraud strategy improvements that reduced investigation volume by 22%.",
         "Optimized ETL pipeline to slash process time by 97% and transform complex data infrastructure into production-ready datasets.",
         "Co-developed and rigorously validated robust data model to ensure data integrity and accelerate implementation timelines by 50% through cross-team collaboration and external resource integration.",
         "Directed root cause analyses for Risk Management to isolate KPI fluctuations and enforce compliance with internal standards and US government Regulations.",
@@ -62,7 +62,7 @@ export const data = {
     },
     {
       company: "Bayer",
-      title: "Sr. Data Analyst",
+      title: "Data Scientist",
       dates: "Jul 2023 – Oct 2024",
       location: "St. Louis, MO",
       bullets: [
@@ -87,7 +87,7 @@ export const data = {
     },
     {
       company: "SGS Tekniks",
-      title: "Data Analyst",
+      title: "Data Scientist",
       dates: "Nov 2014 – May 2018",
       location: "Gurugram, IND",
       bullets: [

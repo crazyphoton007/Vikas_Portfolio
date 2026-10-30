@@ -17,6 +17,7 @@ export default function Experience() {
                 <p className="text-sm text-zinc-400">
                   {job.company} • {job.location}
                 </p>
+                {job.team && <p className="mt-1 text-xs text-zinc-500">{job.team}</p>}
               </div>
               <div className="text-xs text-zinc-500">{job.dates}</div>
             </div>

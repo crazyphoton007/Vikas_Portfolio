@@ -12,7 +12,6 @@ export default function Nav({ resumeUrl, githubUrl, linkedinUrl, onOpenEmail }) 
   const brandName = data.name || "Vikas Shukla";
 
   const links = [
-    { label: "About", id: "about" },
     { label: "Experience", id: "experience" },
     { label: "Projects", id: "projects" },
     { label: "Skills", id: "skills" },

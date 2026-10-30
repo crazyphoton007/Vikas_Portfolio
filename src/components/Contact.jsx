@@ -8,13 +8,20 @@ export default function Contact() {
         <div className="h-px flex-1 bg-zinc-800" />
       </div>
 
-      <div className="grid gap-4 md:grid-cols-3">
+      <div className="grid gap-4 md:grid-cols-2">
         {/* Email */}
         <div className="spark-card rounded-2xl border border-zinc-800 bg-zinc-950/60 p-5">
           <div className="text-sm font-semibold">Email</div>
           <div className="mt-1 text-xs text-zinc-400 break-all">
             {data.email}
           </div>
+        </div>
+
+        <div className="spark-card rounded-2xl border border-zinc-800 bg-zinc-950/60 p-5">
+          <div className="text-sm font-semibold">Phone</div>
+          <a href={`tel:${data.phone.replace(/[^+\d]/g, "")}`} className="mt-1 block text-xs text-amber-400 hover:underline">
+            {data.phone}
+          </a>
         </div>
 
         {/* GitHub */}

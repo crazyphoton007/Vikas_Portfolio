@@ -19,7 +19,7 @@ function SkillCard({ title, items }) {
 }
 
 export default function Skills() {
-  const { languages, tools, frameworks } = data.skills;
+  const { languages, tools, engineering } = data.skills;
 
   return (
     <section id="skills" className="card p-6 md:p-8">
@@ -29,9 +29,9 @@ export default function Skills() {
       </div>
 
       <div className="grid gap-6 md:grid-cols-3">
-        <SkillCard title="Languages" items={languages} />
-        <SkillCard title="Developer Tools" items={tools} />
-        <SkillCard title="Frameworks & Concepts" items={frameworks} />
+        <SkillCard title="Languages & Frameworks" items={languages} />
+        <SkillCard title="Cloud & DevOps" items={tools} />
+        <SkillCard title="Engineering" items={engineering} />
       </div>
     </section>
   );

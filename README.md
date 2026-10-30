@@ -19,7 +19,7 @@ npm run preview
 
 - Edit content in `src/data.js`
 - Update meta tags in `index.html`
-- Replace `public/Vikas_Shukla_Resume.pdf` with your latest resume
+- Replace `public/Vikas_Resume.pdf` with your latest resume
 
 ## Deploy
 

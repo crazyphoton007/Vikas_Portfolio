@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
-import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -118,7 +117,6 @@ export default function App() {
             onOpenEmail={() => setEmailModalOpen(true)}
           />
 
-          <About />
           <Experience />
           <Projects />
           <Skills />
